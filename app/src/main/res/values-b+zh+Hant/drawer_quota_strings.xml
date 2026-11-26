@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_quota_category">導覽抽屜</string>
+    <string name="drawer_quota_selection">顯示的配額</string>
+    <string name="drawer_quota_none">隱藏配額</string>
+    <string name="drawer_quota_density">配額顯示樣式</string>
+    <string name="drawer_quota_simple">簡潔</string>
+    <string name="drawer_quota_detailed">詳細</string>
+    <string name="drawer_quota_unlimited">不限</string>
+</resources>

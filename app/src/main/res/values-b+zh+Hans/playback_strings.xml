@@ -1,0 +1,8 @@
+<resources>
+    <string name="playback_seek">播放进度</string>
+    <string name="playback_subtitles">字幕</string>
+    <string name="playback_fullscreen">全屏</string>
+    <string name="playback_unknown_duration_description">总时长未知</string>
+    <string name="subtitle_picker_empty">此目录中没有文件夹或支持的字幕文件。</string>
+    <string name="subtitle_browse_drive">浏览云盘</string>
+</resources>

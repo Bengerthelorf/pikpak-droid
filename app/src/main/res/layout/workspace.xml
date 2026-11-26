@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dev.oneuiproject.oneui.layout.NavDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/workspace_toolbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:drawerBackAnimation="true"
+    app:expanded="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_location="main_content">
+
+        <TextView
+            android:id="@+id/workspace_busy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="6dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:visibility="gone" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/workspace_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.snaix.pikpak.FolderPageLayout
+                android:id="@+id/workspace_folder_pages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/workspace_list" />
+            </com.snaix.pikpak.FolderPageLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <ViewStub
+            android:id="@+id/workspace_tasks_stub"
+            android:inflatedId="@+id/workspace_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout="@layout/workspace_tasks" />
+    </LinearLayout>
+
+    <dev.oneuiproject.oneui.navigation.widget.DrawerNavigationView
+        android:id="@+id/workspace_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_location="drawer_panel"
+        app:menu="@menu/workspace_drawer" />
+</dev.oneuiproject.oneui.layout.NavDrawerLayout>

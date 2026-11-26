@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.945"
+        android:scaleY="0.945">
+        <!-- The raised tab and the open front share one outer contour. -->
+        <path
+            android:pathData="M32.5,48.5V41.5Q32.5,38.5 35.7,38.5H43.6Q45.3,38.5 46.7,40L49.5,43H68.2Q71.7,43 71.7,46.5V47 M32.5,48.5L71.8,47Q75.5,46.9 75.5,50.6V65Q75.5,69.2 71.3,69.2H36.7Q32.5,69.2 32.5,65Z"
+            android:strokeColor="@android:color/white"
+            android:strokeWidth="2.45"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M43.3,53.7L47.8,57.1L43.3,60.5 M64.7,53.7L60.2,57.1L64.7,60.5 M51.5,61.4H56.5"
+            android:strokeColor="@android:color/white"
+            android:strokeWidth="2.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

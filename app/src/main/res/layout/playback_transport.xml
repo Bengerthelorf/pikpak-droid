@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playback_transport"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/playback_transport_background"
+    android:orientation="vertical"
+    android:paddingHorizontal="4dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layoutDirection="ltr"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@id/exo_position"
+            style="@style/PlaybackTime" />
+
+        <com.snaix.pikpak.PlaybackSeekBar
+            android:id="@id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/playback_seek" />
+
+        <TextView
+            android:id="@id/exo_duration"
+            style="@style/PlaybackTime" />
+        <TextView
+            android:id="@+id/playback_unknown_duration"
+            style="@style/PlaybackTime"
+            android:contentDescription="@string/playback_unknown_duration_description"
+            android:text="@string/playback_unknown_duration"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.snaix.pikpak.PlaybackControlRows
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layoutDirection="ltr">
+
+        <LinearLayout
+            android:id="@+id/playback_primary_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@id/exo_rew_with_amount"
+                style="@style/PlaybackSkip"
+                android:drawableStart="@drawable/ic_oui_arrow_left" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@id/exo_play_pause"
+                style="@style/PlaybackControl"
+                android:contentDescription="@string/exo_controls_play_description"
+                android:padding="6dp"
+                android:src="@drawable/ic_oui_control_play_circle_filled" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@id/exo_ffwd_with_amount"
+                style="@style/PlaybackSkip"
+                android:drawableEnd="@drawable/ic_oui_arrow_right" />
+        </LinearLayout>
+
+        <Space
+            android:id="@+id/playback_controls_spacer"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/playback_secondary_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/playback_subtitles"
+                style="@style/PlaybackControl"
+                android:contentDescription="@string/playback_subtitles"
+                android:src="@drawable/ic_oui_live_caption" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@id/exo_settings"
+                style="@style/PlaybackControl"
+                android:contentDescription="@string/exo_controls_settings_description"
+                android:src="@drawable/ic_oui_settings_outline" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@id/exo_fullscreen"
+                style="@style/PlaybackControl"
+                android:contentDescription="@string/playback_fullscreen"
+                android:src="@drawable/ic_oui_expand"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.snaix.pikpak.PlaybackControlRows>
+</LinearLayout>

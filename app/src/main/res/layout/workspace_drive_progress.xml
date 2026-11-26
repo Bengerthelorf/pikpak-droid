@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="4dp"
+    android:visibility="gone">
+
+    <!-- SESL paints the animated track in the middle 16 of 128 viewport units.
+         At 32dp its ink matches the native 4dp determinate track.
+         Scale both together and clip the transparent space to the visible row. -->
+    <androidx.appcompat.widget.SeslProgressBar
+        android:id="@+id/workspace_drive_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:indeterminateOnly="false"
+        android:scaleY="1.25" />
+</FrameLayout>

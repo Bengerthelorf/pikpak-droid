@@ -1,0 +1,4 @@
+<resources>
+    <string name="playback_fullscreen_portrait">Portrait full screen</string>
+    <string name="playback_fullscreen_landscape">Landscape full screen</string>
+</resources>

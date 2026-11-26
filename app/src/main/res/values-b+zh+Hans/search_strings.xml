@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_drive_title">搜索文件</string>
+    <string name="search_list_hint">搜索当前列表</string>
+    <string name="search_input_hint">文件或文件夹名称</string>
+    <string name="search_scope">搜索范围</string>
+    <string name="search_scope_all">整个云盘</string>
+    <string name="search_scope_folder">当前文件夹（%1$s）</string>
+    <string name="search_results_heading">搜索结果</string>
+    <string name="search_drive_empty_query">输入要查找的文件或文件夹名称</string>
+    <string name="search_drive_match_count">%1$d 项结果</string>
+    <string name="search_shown_match_count">本页 %1$d 项，共匹配 %2$d 项</string>
+    <string name="search_index_updating">正在更新全盘搜索…</string>
+    <string name="search_index_cached">使用上次保存的完整云盘索引</string>
+    <string name="search_index_partial">仅显示可用目录中的结果</string>
+    <string name="search_partial_empty">可用目录中没有匹配项</string>
+    <string name="search_update_failed">无法更新全盘搜索</string>
+    <string name="search_index_session_only">完整结果暂存于内存</string>
+    <string name="search_clear_index">清理全盘搜索索引</string>
+    <string name="search_clear_index_summary">移除此设备保存的全盘搜索索引。</string>
+    <string name="search_index_cleared">全盘搜索索引已清理</string>
+    <string name="search_previous_page">上一页</string>
+    <string name="search_next_page">下一页</string>
+    <string name="search_clear_failed">未能清除网盘搜索索引</string>
+</resources>

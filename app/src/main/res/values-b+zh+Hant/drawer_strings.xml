@@ -1,0 +1,24 @@
+<resources>
+    <string name="drawer_files">雲端硬碟</string>
+    <string name="drawer_favorites">收藏</string>
+    <string name="drawer_recent">最近動態</string>
+    <string name="drawer_trash">垃圾桶</string>
+    <string name="drawer_tasks">任務</string>
+    <string name="drawer_shares">分享</string>
+    <string name="drawer_account">我的</string>
+    <string name="my_account">我的帳號</string>
+    <string name="shared_contents">分享內容</string>
+    <string name="drawer_back">返回</string>
+    <string name="drawer_open">導覽選單</string>
+    <string name="drawer_expand_usage">展開詳細資料</string>
+    <string name="drawer_collapse_usage">收合詳細資料</string>
+    <string name="drawer_named_profile">%1$s，我的帳號</string>
+    <string name="drawer_open_quota">%1$s，%2$s。檢視帳號詳細資料</string>
+    <string name="drawer_all_favorites">所有收藏</string>
+    <string name="drawer_starred_item">%1$s，已收藏的%2$s</string>
+    <string name="drawer_drive_destination">雲端硬碟</string>
+    <string name="drawer_trash_destination">垃圾桶</string>
+    <string name="drawer_storage_label">容量</string>
+    <string name="drawer_stars_expanded">已展開</string>
+    <string name="drawer_stars_collapsed">已收合</string>
+</resources>

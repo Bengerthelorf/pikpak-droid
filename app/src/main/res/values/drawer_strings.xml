@@ -1,0 +1,24 @@
+<resources>
+    <string name="drawer_files">Drive</string>
+    <string name="drawer_favorites">Favorites</string>
+    <string name="drawer_recent">Recent activity</string>
+    <string name="drawer_trash">Trash</string>
+    <string name="drawer_tasks">Tasks</string>
+    <string name="drawer_shares">Shares</string>
+    <string name="drawer_account">Account</string>
+    <string name="my_account">My account</string>
+    <string name="shared_contents">Shared files</string>
+    <string name="drawer_back">Back</string>
+    <string name="drawer_open">Navigation menu</string>
+    <string name="drawer_expand_usage">Show more</string>
+    <string name="drawer_collapse_usage">Show less</string>
+    <string name="drawer_named_profile">%1$s, my account</string>
+    <string name="drawer_open_quota">%1$s, %2$s. View account details</string>
+    <string name="drawer_all_favorites">All favorites</string>
+    <string name="drawer_starred_item">%1$s, favorite %2$s</string>
+    <string name="drawer_drive_destination">Drive</string>
+    <string name="drawer_trash_destination">Trash</string>
+    <string name="drawer_storage_label">Storage</string>
+    <string name="drawer_stars_expanded">Expanded</string>
+    <string name="drawer_stars_collapsed">Collapsed</string>
+</resources>

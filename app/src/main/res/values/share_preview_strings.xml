@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_preview_details_unavailable">Additional file details could not be loaded.</string>
+    <string name="share_preview_duration">Duration: %1$s</string>
+    <string name="share_preview_qualities">Video quality:\n%1$s</string>
+    <string name="share_preview_quality_quota">%1$s (additional quota required)</string>
+    <string name="share_preview_quality_unavailable">%1$s (unavailable)</string>
+</resources>

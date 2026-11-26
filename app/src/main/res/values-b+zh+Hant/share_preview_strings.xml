@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_preview_details_unavailable">暫時無法取得更多檔案資訊。</string>
+    <string name="share_preview_duration">片長：%1$s</string>
+    <string name="share_preview_qualities">畫質：\n%1$s</string>
+    <string name="share_preview_quality_quota">%1$s（需要額外播放配額）</string>
+    <string name="share_preview_quality_unavailable">%1$s（暫時無法使用）</string>
+</resources>

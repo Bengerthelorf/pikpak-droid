@@ -1,0 +1,36 @@
+<resources>
+    <string name="workspace_settings_title">Settings</string>
+    <string name="workspace_settings_back">Back</string>
+    <string name="workspace_settings_appearance">Appearance</string>
+    <string name="workspace_settings_thumbnails">File thumbnails</string>
+    <string name="workspace_settings_thumbnails_description">Show thumbnails in Drive and Tasks and folder covers in icon view</string>
+    <string name="workspace_settings_folder_stats">Calculate folder statistics</string>
+    <string name="workspace_settings_folder_stats_description">Save folder sizes and the last change within each folder. Show saved statistics when you return.</string>
+    <string name="workspace_settings_preview_cache">Cache thumbnails and folder covers</string>
+    <string name="workspace_settings_preview_cache_description">Previews stay on this device. When a limit is enabled, older previews are removed first.</string>
+    <string name="preview_cache_size_limit">Storage limit</string>
+    <string name="preview_cache_count_limit">Preview count limit</string>
+    <string name="preview_cache_limit_unlimited">Unlimited</string>
+    <string name="preview_cache_mib">%1$d MiB</string>
+    <string name="preview_cache_count">%1$d previews</string>
+    <string name="preview_cache_used_bytes">%1$d B</string>
+    <string name="preview_cache_used_kib">%1$.1f KiB</string>
+    <string name="preview_cache_used_mib">%1$.1f MiB</string>
+    <string name="preview_cache_usage">%1$s used · %2$d previews</string>
+    <string name="preview_cache_usage_unavailable">Cache usage is temporarily unavailable</string>
+    <string name="preview_cache_size_dialog_title">Storage limit (MiB)</string>
+    <string name="preview_cache_count_dialog_title">Preview count limit</string>
+    <string name="preview_cache_limit_description">Lowering the limit removes the oldest previews first.</string>
+    <string name="preview_cache_positive_integer">Enter a positive whole number</string>
+    <string name="preview_cache_clear">Clear preview cache</string>
+    <string name="preview_cache_clear_question">Clear the preview cache?</string>
+    <string name="preview_cache_clear_message">Remove saved thumbnails, image previews and folder covers from this device. They will load again when you browse.</string>
+    <string name="preview_cache_clear_confirm">Clear</string>
+    <string name="preview_cache_cleared">Preview cache cleared</string>
+    <string name="preview_cache_cleanup_failed">Some previews could not be cleared. Try again later.</string>
+    <string name="preview_cache_cancel">Cancel</string>
+    <string name="preview_cache_save">Save</string>
+    <string name="workspace_settings_version">Version</string>
+    <string name="app_language_title">App language</string>
+    <string name="app_language_system">System default</string>
+</resources>

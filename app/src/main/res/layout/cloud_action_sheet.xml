@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:id="@+id/cloud_sheet_drag_handle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/cloud_sheet_title"
+        style="@style/OneUI.BottomSheetDialogTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingHorizontal="@dimen/cloud_sheet_content_inset"
+        android:paddingBottom="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="@dimen/cloud_sheet_content_inset"
+        android:background="?attr/seslDialogDivderColor" />
+
+    <ListView
+        android:id="@+id/cloud_sheet_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/cloud_sheet_list_inset"
+        android:divider="@null"
+        android:overScrollMode="ifContentScrolls" />
+
+</LinearLayout>

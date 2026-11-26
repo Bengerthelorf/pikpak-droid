@@ -1,0 +1,8 @@
+<resources>
+    <string name="playback_seek">Playback position</string>
+    <string name="playback_subtitles">Subtitles</string>
+    <string name="playback_fullscreen">Full screen</string>
+    <string name="playback_unknown_duration_description">Duration unknown</string>
+    <string name="subtitle_picker_empty">No folders or supported subtitles here.</string>
+    <string name="subtitle_browse_drive">Browse PikPak Drive</string>
+</resources>

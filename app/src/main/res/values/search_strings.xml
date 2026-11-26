@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_drive_title">Search files</string>
+    <string name="search_list_hint">Search this list</string>
+    <string name="search_input_hint">File or folder name</string>
+    <string name="search_scope">Search scope</string>
+    <string name="search_scope_all">Entire drive</string>
+    <string name="search_scope_folder">Current folder (%1$s)</string>
+    <string name="search_results_heading">Search results</string>
+    <string name="search_drive_empty_query">Enter a file or folder name</string>
+    <string name="search_drive_match_count">Results: %1$d</string>
+    <string name="search_shown_match_count">Showing %1$d of %2$d matches</string>
+    <string name="search_index_updating">Updating entire drive search…</string>
+    <string name="search_index_cached">Using the last complete drive index</string>
+    <string name="search_index_partial">Matches from available folders only</string>
+    <string name="search_partial_empty">No matches in the available folders</string>
+    <string name="search_update_failed">Could not update entire drive search</string>
+    <string name="search_index_session_only">Complete results held in memory</string>
+    <string name="search_clear_index">Clear drive search index</string>
+    <string name="search_clear_index_summary">Removes the locally saved whole-drive search index.</string>
+    <string name="search_index_cleared">Drive search index cleared</string>
+    <string name="search_previous_page">Previous page</string>
+    <string name="search_next_page">Next page</string>
+    <string name="search_clear_failed">Could not clear the drive search index</string>
+</resources>

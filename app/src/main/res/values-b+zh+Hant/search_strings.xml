@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_drive_title">搜尋檔案</string>
+    <string name="search_list_hint">搜尋目前列表</string>
+    <string name="search_input_hint">檔案或資料夾名稱</string>
+    <string name="search_scope">搜尋範圍</string>
+    <string name="search_scope_all">整個雲端硬碟</string>
+    <string name="search_scope_folder">目前資料夾（%1$s）</string>
+    <string name="search_results_heading">搜尋結果</string>
+    <string name="search_drive_empty_query">輸入要尋找的檔案或資料夾名稱</string>
+    <string name="search_drive_match_count">%1$d 個結果</string>
+    <string name="search_shown_match_count">本頁 %1$d 筆，共符合 %2$d 筆</string>
+    <string name="search_index_updating">正在更新整個雲端硬碟的搜尋…</string>
+    <string name="search_index_cached">使用上次儲存的完整雲端硬碟索引</string>
+    <string name="search_index_partial">僅顯示可用資料夾中的結果</string>
+    <string name="search_partial_empty">可用資料夾中沒有符合的項目</string>
+    <string name="search_update_failed">無法更新整個雲端硬碟的搜尋</string>
+    <string name="search_index_session_only">完整結果暫存於記憶體</string>
+    <string name="search_clear_index">清除整個雲端硬碟的搜尋索引</string>
+    <string name="search_clear_index_summary">移除這部裝置儲存的整個雲端硬碟搜尋索引。</string>
+    <string name="search_index_cleared">整個雲端硬碟的搜尋索引已清除</string>
+    <string name="search_previous_page">上一頁</string>
+    <string name="search_next_page">下一頁</string>
+    <string name="search_clear_failed">無法清除雲端硬碟搜尋索引</string>
+</resources>

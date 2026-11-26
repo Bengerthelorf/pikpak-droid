@@ -1,0 +1,24 @@
+<resources>
+    <string name="drawer_files">云盘</string>
+    <string name="drawer_favorites">收藏</string>
+    <string name="drawer_recent">最近动态</string>
+    <string name="drawer_trash">回收站</string>
+    <string name="drawer_tasks">任务</string>
+    <string name="drawer_shares">分享</string>
+    <string name="drawer_account">我的</string>
+    <string name="my_account">我的账号</string>
+    <string name="shared_contents">分享内容</string>
+    <string name="drawer_back">返回</string>
+    <string name="drawer_open">导航菜单</string>
+    <string name="drawer_expand_usage">展开详情</string>
+    <string name="drawer_collapse_usage">收起详情</string>
+    <string name="drawer_named_profile">%1$s，我的账号</string>
+    <string name="drawer_open_quota">%1$s，%2$s。查看账号详情</string>
+    <string name="drawer_all_favorites">全部收藏</string>
+    <string name="drawer_starred_item">%1$s，收藏的%2$s</string>
+    <string name="drawer_drive_destination">云端硬盘</string>
+    <string name="drawer_trash_destination">垃圾桶</string>
+    <string name="drawer_storage_label">容量</string>
+    <string name="drawer_stars_expanded">已展开</string>
+    <string name="drawer_stars_collapsed">已收起</string>
+</resources>

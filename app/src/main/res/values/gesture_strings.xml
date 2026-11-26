@@ -1,0 +1,15 @@
+<resources>
+    <item type="id" name="playback_gestures"/>
+    <item type="id" name="playback_center_back"/>
+    <item type="id" name="playback_center_play_pause"/>
+    <item type="id" name="playback_center_forward"/>
+    <item type="id" name="playback_seek_feedback"/>
+    <item type="id" name="playback_seek_edge"/>
+    <string name="gesture_seek_back">Rewind 10 seconds</string>
+    <string name="gesture_seek_forward">Forward 10 seconds</string>
+    <string name="gesture_seconds_back">−%1$d s</string>
+    <string name="gesture_seconds_forward">+%1$d s</string>
+    <string name="gesture_minimize">Minimize video</string>
+    <string name="gesture_show_controls">Show playback controls</string>
+    <string name="gesture_hide_controls">Hide playback controls</string>
+</resources>

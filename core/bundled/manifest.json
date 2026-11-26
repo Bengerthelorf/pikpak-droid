@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/Bengerthelorf/pikpaktui",
+  "build": "github-release",
+  "revision": "71b62d1ec24fabb0bbe3a74b81621b4b3f4187a5",
+  "version": "0.0.68",
+  "abi": "arm64-v8a",
+  "api": 1,
+  "sha256": "5eb97067ea431755f77de825144ee7da08a97cd3e1f4a205ce7cce4a14ea06d0"
+}

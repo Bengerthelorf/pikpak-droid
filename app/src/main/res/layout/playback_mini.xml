@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playback_mini"
+    android:layout_width="180dp"
+    android:layout_height="102dp"
+    android:layout_gravity="bottom|left"
+    android:clickable="true"
+    android:focusable="true"
+    android:clipToOutline="true"
+    android:elevation="6dp">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/playback_mini_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="noHideDescendants"
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="false"
+        android:focusable="false"
+        app:use_controller="false"
+        app:surface_type="texture_view"
+        app:show_buffering="when_playing"
+        app:shutter_background_color="@android:color/black" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/playback_mini_close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|end"
+        android:padding="14dp"
+        android:background="@null"
+        android:contentDescription="@string/ui_close"
+        app:srcCompat="@drawable/ic_oui_close"
+        app:tint="@android:color/white" />
+</FrameLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="workspace_settings_title">設定</string>
+    <string name="workspace_settings_back">返回</string>
+    <string name="workspace_settings_appearance">外觀</string>
+    <string name="workspace_settings_thumbnails">檔案縮圖</string>
+    <string name="workspace_settings_thumbnails_description">顯示雲端硬碟和任務的縮圖，以及圖標視圖中的資料夾封面</string>
+    <string name="workspace_settings_folder_stats">自動統計資料夾</string>
+    <string name="workspace_settings_folder_stats_description">儲存資料夾總大小和內容修改時間。返回目錄時優先顯示已儲存的統計。</string>
+    <string name="workspace_settings_preview_cache">快取縮圖和資料夾封面</string>
+    <string name="workspace_settings_preview_cache_description">預覽會一直儲存在本機。啓用上限後，超出時會優先清理較早儲存的預覽。</string>
+    <string name="preview_cache_size_limit">空間上限</string>
+    <string name="preview_cache_count_limit">數量上限</string>
+    <string name="preview_cache_limit_unlimited">不限</string>
+    <string name="preview_cache_mib">%1$d MiB</string>
+    <string name="preview_cache_count">%1$d 張</string>
+    <string name="preview_cache_used_bytes">%1$d B</string>
+    <string name="preview_cache_used_kib">%1$.1f KiB</string>
+    <string name="preview_cache_used_mib">%1$.1f MiB</string>
+    <string name="preview_cache_usage">已用 %1$s · %2$d 張</string>
+    <string name="preview_cache_usage_unavailable">暫時無法讀取快取佔用</string>
+    <string name="preview_cache_size_dialog_title">空間上限（MiB）</string>
+    <string name="preview_cache_count_dialog_title">數量上限（張）</string>
+    <string name="preview_cache_limit_description">調低上限時，超出的預覽會按儲存時間從早到晚清理。</string>
+    <string name="preview_cache_positive_integer">請輸入大於零的有效整數</string>
+    <string name="preview_cache_clear">清理預覽快取</string>
+    <string name="preview_cache_clear_question">清理預覽快取？</string>
+    <string name="preview_cache_clear_message">刪除本機儲存的縮圖、圖片預覽和資料夾封面。下次瀏覽時會按需重新載入。</string>
+    <string name="preview_cache_clear_confirm">清理</string>
+    <string name="preview_cache_cleared">已清理預覽快取</string>
+    <string name="preview_cache_cleanup_failed">部分預覽清理失敗，請稍後重試。</string>
+    <string name="preview_cache_cancel">取消</string>
+    <string name="preview_cache_save">儲存</string>
+    <string name="workspace_settings_version">版本</string>
+    <string name="app_language_title">應用程式語言</string>
+    <string name="app_language_system">跟隨系統</string>
+</resources>

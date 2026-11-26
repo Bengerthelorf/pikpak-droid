@@ -1,0 +1,4 @@
+<resources>
+    <string name="playback_fullscreen_portrait">直向全螢幕</string>
+    <string name="playback_fullscreen_landscape">橫向全螢幕</string>
+</resources>

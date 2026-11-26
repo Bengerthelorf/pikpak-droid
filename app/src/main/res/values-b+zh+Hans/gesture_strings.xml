@@ -1,0 +1,9 @@
+<resources>
+    <string name="gesture_seek_back">快退 10 秒</string>
+    <string name="gesture_seek_forward">快进 10 秒</string>
+    <string name="gesture_seconds_back">−%1$d 秒</string>
+    <string name="gesture_seconds_forward">+%1$d 秒</string>
+    <string name="gesture_minimize">缩小视频</string>
+    <string name="gesture_show_controls">显示播放控件</string>
+    <string name="gesture_hide_controls">隐藏播放控件</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <item name="selection_file_actions" type="id" />
+    <item name="selection_save_share" type="id" />
+    <item name="incoming_link" type="id" />
+    <item name="login_email" type="id" />
+    <item name="login_password" type="id" />
+    <item name="incoming_description" type="id" />
+    <item name="drawer_stars_chevron" type="id" />
+    <item name="drawer_quota_host" type="id" />
+</resources>

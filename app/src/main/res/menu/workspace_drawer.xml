@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AppCompatResource">
+
+    <group android:id="@+id/nav_activity" android:checkableBehavior="single">
+        <item android:id="@+id/nav_tasks" android:orderInCategory="10" android:title="@string/drawer_tasks" app:showAsAction="always" />
+        <item android:id="@+id/nav_shares" android:orderInCategory="10" android:title="@string/drawer_shares" app:showAsAction="always" />
+    </group>
+    <group android:id="@+id/nav_library" android:checkableBehavior="single">
+        <item android:id="@+id/nav_files" android:orderInCategory="20" android:title="@string/drawer_drive_destination" app:showAsAction="always" />
+        <item android:id="@+id/nav_recent" android:orderInCategory="20" android:title="@string/drawer_recent" app:showAsAction="always" />
+        <item android:id="@+id/nav_trash" android:orderInCategory="20" android:title="@string/drawer_trash_destination" app:showAsAction="always" />
+    </group>
+    <group android:id="@+id/nav_stars" android:checkableBehavior="single">
+        <item android:id="@+id/nav_stars_header" android:orderInCategory="30" android:title="@string/drawer_favorites"
+            android:checkable="false" app:showAsAction="always" />
+        <item android:id="@+id/nav_favorites" android:title="@string/drawer_all_favorites"
+            android:orderInCategory="32" app:showAsAction="always" />
+        <!-- The submenu exposes the enclosing SESL menu for inserting account-specific rows. -->
+        <item android:id="@+id/nav_favorites_menu" android:orderInCategory="90" android:visible="false" android:title="@string/drawer_favorites">
+            <menu />
+        </item>
+    </group>
+</menu>
